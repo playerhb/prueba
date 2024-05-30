@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="estilos/EstilosA.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="titulo">CENS APP</h1>
+    <div class="contenedor">
+        <img src="./imagenes/imgaxel.jfif" class="imgAx" alt="">
+    
+    <div>
+        <p class="titulo2">Axel Yull Huatuco Bravo</p>
+        <p class="titulo3">Sistemas</p>
+        <p class="titulo4">Procedimiento de Rendiciones <span class="titulo5">Descarga Aquí</span></p>
+          
+    </div>
+    </div>
+
+    <div>
+        <h1 class="titulo6">Tus Opciones</h1>
+        <button class="btn botones-SS">Seguridad y Salud en el Trabajo.</button>
+        <button class="btn botones-SD">Solicitud de dinero.</button>
+        <button class="btn botones-GP">Gestion de Proyecto.</button>
+        <button class="btn botones-RA">Reporte de Actividades.</button>
+        <button class="btn botones-PS">Planilla Semanal.</button>
+        <button class="btn botones-EP">Evalución de desempeño y potencial.</button>
+      </div>
+      <script>
+        // Agregar clase 'touch-active' cuando se toca el botón en dispositivos móviles
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('touchstart', function() {
+                this.classList.add('touch-active');
+            });
+            button.addEventListener('touchend', function() {
+                this.classList.remove('touch-active');
+            });
+        });
+    </script>
+</body>
+</html>

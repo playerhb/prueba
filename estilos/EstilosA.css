@@ -1,0 +1,235 @@
+.titulo{
+    color:  rgb(64, 150, 254) ;
+    margin-left: 15px;
+    
+}
+.imgAx{
+    width: 10%;
+    margin:5px 10px 20px 30px;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+}
+.titulo2{
+    margin-right: 50px;
+    color: rgb(64, 150, 254) ;
+    margin-left: 20px;
+    height: 100%;
+    font-size: 50px;
+    
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+  }
+  .titulo3{
+    margin-right: 50px;
+    color: rgb(64, 150, 254) ;
+    margin-left: 20px;
+    height: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.titulo4{
+    margin-right: 50px;
+    margin-left: 20px;
+    height: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titulo5{
+    margin-right: 500px;
+    margin-left: 5px;
+    color: rgb(203, 205, 242);
+    height: 50%;
+    font-size: 20px;
+}
+
+  .titulo6 {
+    font-size: 20px;
+    color: rgb(64, 150, 254) ;
+  }
+  
+  /* .botones {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  } */
+  .botones-SS {
+    font-weight: 100;
+    text-align: left;
+    display: block;
+    margin: 10px 15px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(247, 246, 243); 
+    background-image: linear-gradient(to right, #3498db, #0415ff), url('/HTML+CSS/imagenes/persona.png');
+    background-position: left, right center;
+    background-size: 6px 100%, 42px;
+    background-repeat: no-repeat; /* No se repite */
+    transition: all 0.3s ease;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    box-shadow: 4px 5px 5px rgba(130, 126, 126, 0.5);
+    width: 400px;
+    height: 55px;
+  }
+  .botones-SD {
+    font-weight: 100;
+    text-align: left;
+    display: block;
+    margin: 10px 15px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(247, 246, 243); 
+    background-image: linear-gradient(to right, #1cec45, #3498db), url('/HTML+CSS/imagenes/billetera.png');
+    background-position: left, right center;
+    background-size: 6px 100%, 42px;
+    background-repeat: no-repeat; /* No se repite */
+    
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    box-shadow: 4px 5px 5px rgba(130, 126, 126, 0.5);
+    width: 400px;
+    height: 55px;
+  }
+  .botones-GP {
+    font-weight: 100;
+    text-align: left;
+    display: block;
+    margin: 10px 15px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(247, 246, 243); 
+    background-image: linear-gradient(to right, #090a0a, #070a0c), url('/HTML+CSS/imagenes/gabinete.png'); 
+    background-position: left, right center;
+    background-size: 6px 100%, 42px;
+    background-repeat: no-repeat; /* No se repite */
+
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    box-shadow: 4px 5px 5px rgba(130, 126, 126, 0.5);
+    width: 400px;
+    height: 55px;
+  }
+  .botones-RA {
+    font-weight: 100;
+    text-align: left;
+    display: block;
+    margin: 10px 15px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(247, 246, 243); 
+    background-image: linear-gradient(to right, #e44b28, #e26d19), url('/HTML+CSS/imagenes/calendario.png'); 
+    background-position: left, right center;
+    background-size: 6px 100%, 42px;
+    background-repeat: no-repeat; /* No se repite */
+    
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    box-shadow: 4px 5px 5px rgba(130, 126, 126, 0.5);
+    width: 400px;
+    height: 55px;
+  }
+  .botones-PS {
+    font-weight: 100;
+    text-align: left;
+    display: block;
+    margin: 10px 15px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(247, 246, 243); 
+    background-image: linear-gradient(to right, #c3561b, #f2f2f2), url('/HTML+CSS/imagenes/planilla.png'); 
+    background-position: left, right center;
+    background-size: 6px 100%, 42px;
+    background-repeat: no-repeat; /* No se repite */
+  
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    box-shadow: 4px 5px 5px rgba(130, 126, 126, 0.5);
+    width: 400px;
+    height: 55px;
+  }
+  .botones-EP {
+    font-weight: 100;
+    text-align: left;
+    display: block;
+    margin: 10px 15px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(247, 246, 243); 
+    background-image: linear-gradient(to right, #3bb1ff, #62c0ff), url('/HTML+CSS/imagenes/estrella.png'); 
+    background-position: left center, right center; 
+    background-size: 6px 100%, 42px;
+    background-repeat: no-repeat; 
+ 
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    box-shadow: 4px 5px 5px rgba(130, 126, 126, 0.5);
+    width: 400px;
+    height: 55px;
+  }
+
+.btn:hover {
+    transform: scale(1.11); /* Aumenta el tamaño ligeramente */
+    box-shadow: 20px 8px 10px rgba(130, 126, 126, 0.7); /* Aumenta la sombra */
+}
+
+.btn:active {
+  transform: scale(0.95); /* Disminuye el tamaño ligeramente */
+  box-shadow: 8px 3px 3px rgba(130, 126, 126, 0.3); /* Disminuye la sombra */
+}
+.btn.touch-active {
+  transform: scale(0.95); /* Disminuye el tamaño ligeramente */
+  box-shadow: 8px 3px 3px rgba(130, 126, 126, 0.3); /* Disminuye la sombra */
+}
+  /* Cambios para dispositivos móviles */
+  @media only screen and (max-width: 600px) {
+    /* Estilos específicos para dispositivos móviles */
+    .btn {
+      width: 100%; /* Ancho completo en dispositivos móviles */
+      max-width: none; /* Elimina el ancho máximo */
+      padding: 10px 20px; /* Reduce el relleno */
+      font-size: 14px; /* Reduce el tamaño de la fuente */
+    }
+  }
+.btn {
+  font-weight: 100;
+  text-align: left;
+  display: block;
+  margin: 10px 15px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(247, 246, 243); 
+  background-position: left, right center;
+  background-size: 6px 100%, 42px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 4px 5px 5px rgba(130, 126, 126, 0.5);
+  width: 100%; /* Ancho completo */
+  max-width: 400px; /* Ancho máximo */
+  height: 55px;
+  transition: all 0.3s ease; /* Transición para todos los cambios */
+}
+
